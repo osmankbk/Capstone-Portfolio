@@ -1,9 +1,12 @@
-.container {
-    border: solid 2px aqua;
-}
-
-.landing {
-    border: solid 2px red;
-    background-image: url("../images/AdobeStock_264558719_Preview.jpeg");
+.jumbotron {
+    background-image: url("../images/AdobeStock_264558719.jpeg");
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 100vh;
+}
+.navbar {
+    margin-bottom: 0px;
+    background-color: plum;
 }
