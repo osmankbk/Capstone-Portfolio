@@ -1,0 +1,9 @@
+.container {
+    border: solid 2px aqua;
+}
+
+.landing {
+    border: solid 2px red;
+    background-image: url("../images/AdobeStock_264558719_Preview.jpeg");
+    background-size: cover;
+}
