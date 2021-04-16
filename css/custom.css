@@ -1,12 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.jumbo-h1 {
+    text-decoration-color: crimson;
+}
 .jumbotron {
     background-image: url("../images/AdobeStock_264558719.jpeg");
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    height: 100vh;
+    /* padding: 0px; */
 }
-.navbar {
-    margin-bottom: 0px;
-    background-color: plum;
+
+.jumbotron-container {
+    border: solid 2px red;
+    height: 100vh;
+    /* background-color: rgba(231, 10, 10, 0.4); */
+}
+
+.second {
+    transition: transform .5s ease-out;
+    transform: translateY(-100%);
+}
+
+.down {
+    width: 100px;
+    height: 100px;
+    margin-top: 13rem;
+    background-color: rgb(220, 20, 60, .3);
 }
