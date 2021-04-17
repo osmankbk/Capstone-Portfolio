@@ -1,8 +1,13 @@
+body {
+
+}
+
 
 .jumbotron {
     background-image: url("../images/AdobeStock_264558719.jpeg");
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 
 }
 
@@ -36,8 +41,12 @@ h4 {
 .second {
     transition: transform .5s ease-out;
     transform: translateY(-100%);
-    /* background-color: black; */
 }
+
+/* .container {
+    background-image: url("images/epicbackgroundimage.jpg");
+    background-size: cover;
+} */
 
 .navbar-brand {
     color: crimson;
@@ -82,3 +91,24 @@ h4 {
         display: none;
     }
 } */
+
+#about {
+    /* background-color: rgb(192, 120, 138); */
+}
+
+.about-text {
+    border: solid 2px black;
+    margin-left: 20px;
+}
+
+.image-div {
+    border: solid 2px crimson;
+}
+
+.self {
+  width: 90%;
+  border-radius: 10%;
+}
+.about-h3 {
+    border-bottom: solid 2px crimson;
+}
