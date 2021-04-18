@@ -1,19 +1,24 @@
-body {
 
+
+.main {
+    padding: 0;
 }
-
 
 .jumbotron {
     background-image: url("../images/AdobeStock_264558719.jpeg");
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-color: rgb(212, 22, 60);
+    background-blend-mode: exclusion; */
+    margin: 0;
+    /* background-attachment: fixed; */
 
 }
 
 .jumbotron-container {
     height: 90vh;
     background-position: center center; 
+    margin: 0px;
 }
 
 .first {
@@ -92,23 +97,28 @@ h4 {
     }
 } */
 
+.about-layout {
+    display: flex;
+}
+
 #about {
-    /* background-color: rgb(192, 120, 138); */
+    background-image: linear-gradient(-30deg, brown, papayawhip, firebrick);
+}
+
+.about-row {
+
 }
 
 .about-text {
-    border: solid 2px black;
-    margin-left: 20px;
+    /* border: solid 2px black; */
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: radial-gradient( brown, papayawhip);
 }
 
-.image-div {
-    border: solid 2px crimson;
-}
-
-.self {
-  width: 90%;
-  border-radius: 10%;
-}
 .about-h3 {
-    border-bottom: solid 2px crimson;
+    margin-top: 2rem;
+    letter-spacing: 5px;
 }
