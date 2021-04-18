@@ -49,11 +49,11 @@
 /************* JUMBOTRON  *****************/
 
 .jumbotron {
-    background-image: url("../images/AdobeStock_264558719.jpeg");
+    background-image: url("../images/Mastery-puzzle.jpg");
     background-size: cover;
     background-position: center center;
-    /* background-color: rgb(212, 22, 60);
-    background-blend-mode: exclusion; */
+    background-color: rgba(255, 239, 214, 0.9);
+    background-blend-mode: multiply;
     margin: 0;
     /* background-attachment: fixed; */
 
