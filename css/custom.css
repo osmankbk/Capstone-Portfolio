@@ -1,8 +1,52 @@
+/************* HEADER  *****************/
 
-
-.main {
-    padding: 0;
+.first {
+    display: flex;
+    align-content: space-around;
+    height: 3.5rem;
+    background-color: black;
+    color: rgb(102, 8, 27);
 }
+
+.down {
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin: auto;
+    background-color: rgba(14, 13, 13, 0.9);
+    border-radius: 20%;
+    fill: crimson;
+    
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+}
+
+.second {
+    transition: transform .5s ease-out;
+    transform: translateY(-100%);
+}
+
+.first-stack {
+    margin-left: 10px;
+    align-self: center;
+    
+}
+
+.first-developer {
+    margin-right: 10px;
+    align-self: center;
+}
+
+.navbar-brand {
+    color: crimson;
+}
+
+.nav-link {
+    color: crimson;
+}
+
+
+/************* JUMBOTRON  *****************/
 
 .jumbotron {
     background-image: url("../images/AdobeStock_264558719.jpeg");
@@ -21,59 +65,34 @@
     margin: 0px;
 }
 
-.first {
-    display: flex;
-    align-content: space-around;
-    height: 3.5rem;
-    background-color: black;
-    color: rgb(102, 8, 27);
+/************* MAIN CONTAINER  *****************/
 
+.main {
+    padding: 0;
 }
 
-h4 {
-    align-self: center;
+/************* ABOUT  *****************/
+
+#about {
+    background-image: linear-gradient(-30deg, brown, papayawhip, firebrick);
 }
 
-
-.first-stack {
-    margin-left: 10px;
+.about-text {
+    /* border: solid 2px black; */
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: radial-gradient( brown, papayawhip);
 }
 
-.first-developer {
-    margin-right: 10px;
-}
-
-.second {
-    transition: transform .5s ease-out;
-    transform: translateY(-100%);
-}
-
-/* .container {
-    background-image: url("images/epicbackgroundimage.jpg");
-    background-size: cover;
-} */
-
-.navbar-brand {
-    color: crimson;
-}
-
-.nav-link {
-    color: crimson;
+.about-h3 {
+    margin-top: 2rem;
+    letter-spacing: 5px;
 }
 
 
-.down {
-    width: 30px;
-    height: 30px;
-    margin-top: 50px;
-    margin: auto;
-    background-color: rgba(14, 13, 13, 0.9);
-    border-radius: 20%;
-    fill: crimson;
-    
-    animation: bounce 2s;
-    animation-iteration-count: infinite;
-}
+/************* ABOUT  *****************/
 
 @keyframes bounce {
     0%,
@@ -91,34 +110,34 @@ h4 {
       }
 }
 
-/* @media(width: 324px) {
-    .down {
-        display: none;
-    }
-} */
 
-.about-layout {
-    display: flex;
-}
 
-#about {
-    background-image: linear-gradient(-30deg, brown, papayawhip, firebrick);
-}
 
-.about-row {
 
-}
 
-.about-text {
-    /* border: solid 2px black; */
-    width: 80%;
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: radial-gradient( brown, papayawhip);
-}
 
-.about-h3 {
-    margin-top: 2rem;
-    letter-spacing: 5px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
