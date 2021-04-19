@@ -4,8 +4,8 @@
     display: flex;
     align-content: space-around;
     height: 3.5rem;
-    background-color: black;
-    color: rgb(102, 8, 27);
+    background-color: rgb(255, 239, 213, .5);
+    color: rgb(155, 82, 56);
 }
 
 .down {
@@ -13,9 +13,9 @@
     height: 30px;
     margin-top: 50px;
     margin: auto;
-    background-color: rgba(14, 13, 13, 0.9);
+    /* background-color: rgba(14, 13, 13, 0.9); */
     border-radius: 20%;
-    fill: crimson;
+    fill: rgb(155, 82, 56);
     
     animation: bounce 2s;
     animation-iteration-count: infinite;
@@ -49,10 +49,10 @@
 /************* JUMBOTRON  *****************/
 
 .jumbotron {
-    background-image: url("../images/Mastery-puzzle.jpg");
+    background-image: url("../images/AdobeStock_264558719.jpeg");
     background-size: cover;
     background-position: center center;
-    background-color: rgba(255, 239, 214, 0.9);
+    background-color: rgba(255, 239, 214, 0.8);
     background-blend-mode: multiply;
     margin: 0;
     /* background-attachment: fixed; */
@@ -74,36 +74,43 @@
 /************* ABOUT  *****************/
 
 #about {
+    margin: 0;
     background-image: linear-gradient(-30deg, brown, papayawhip, firebrick);
 }
 
 .about-text {
     /* border: solid 2px black; */
-    width: 80%;
+    width: 70%;
+    padding-left: 10px;
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
+    font-size: large;
+    line-height: 30px;
+    border-radius: 5px;
     background-image: radial-gradient( brown, papayawhip);
 }
 
 .about-h3 {
     margin-top: 2rem;
     letter-spacing: 5px;
-    text-shadow: 3px 3px 8px firebrick;
+    text-shadow: 5px 5px 8px firebrick;
 }
 
-.skills {
-    /* border: solid 2px blue; */
-    /* width: 98%;
-    margin: 0p
-    auto 0px auto; */
+.list-group {
+    margin-bottom: 4rem;
+    transition: transform .8s ease-in-out;
 }
+
+/* .list-group:hover {
+    transform: translateY(100%);
+} */
 
 .list-group-item {
     background-color: papayawhip;
 }
 
-/************* ABOUT  *****************/
+/************* KEYNOTES  *****************/
 
 @keyframes bounce {
     0%,
@@ -122,7 +129,15 @@
 }
 
 
+#portfolio {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( mistyrose, papayawhip, firebrick);
+}
 
+.portfolio-h3 {
+    text-shadow: 3px 3px 8px mistyrose;
+}
 
 
 
