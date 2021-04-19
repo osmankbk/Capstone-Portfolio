@@ -92,6 +92,16 @@
     text-shadow: 3px 3px 8px firebrick;
 }
 
+.skills {
+    /* border: solid 2px blue; */
+    /* width: 98%;
+    margin: 0p
+    auto 0px auto; */
+}
+
+.list-group-item {
+    background-color: papayawhip;
+}
 
 /************* ABOUT  *****************/
 
