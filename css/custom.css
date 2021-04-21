@@ -236,11 +236,13 @@
     z-index: 1;
 }
 
+
 .photo-cube:hover .view-details {
 	opacity: 1;
 }
 
 .front-button {
+    color: white;
     background-image: linear-gradient(-30deg, purple, rgb(233, 186, 233), firebrick);
 }
 
@@ -249,6 +251,15 @@
     background-color: #7c689b;
 }
 
+.right-button {
+    color: white;
+    background-color: #5b85b7;
+}
+
+.left-button {
+    color: white;
+    background-image: linear-gradient(firebrick, black 40%);
+}
 
 
 
