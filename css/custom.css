@@ -229,7 +229,7 @@
 .view-details {
     opacity: 0;
     position: absolute;
-    transition: opacity .4s ease-in;
+    transition: opacity .4s ease-in, background-color .6s ease-in, background-image .6s ease-in;
     outline: none;
     left: 100px;
     top: 250px;
@@ -245,20 +245,41 @@
     color: white;
     background-image: linear-gradient(-30deg, purple, rgb(233, 186, 233), firebrick);
 }
+.front-button:hover {
+    color: white;
+    background-image: linear-gradient(-30deg, rgba(128, 0, 128, .6), rgba(233, 186, 233, .6), rgba(178, 34, 34, .6));
+}
+
 
 .back-button {
     color: white;
     background-color: #7c689b;
 }
 
+.back-button:hover {
+    color: white;
+    background-color: rgba(124, 104, 155, .6);
+}
+
+
 .right-button {
     color: white;
     background-color: #5b85b7;
 }
 
+.right-button:hover {
+    color: white;
+    background-color: rgba(91, 133, 183, .6);
+}
+
 .left-button {
     color: white;
     background-image: linear-gradient(firebrick, black 40%);
+}
+
+.left-button:hover {
+    color: white;
+    background-image: linear-gradient(rgba(178, 34, 34, .6), rgba(0, 0, 0, .6) 40%);
 }
 
 
