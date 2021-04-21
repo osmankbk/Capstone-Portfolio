@@ -1,4 +1,6 @@
-/************* HEADER  *****************/
+/* ================================= 
+                HEADER
+==================================== */
 
 .first {
     display: flex;
@@ -46,7 +48,9 @@
 }
 
 
-/************* JUMBOTRON  *****************/
+/* ================================= 
+            JUMBOTRON
+==================================== */
 
 .jumbotron {
     background-image: url("../images/AdobeStock_264558719.jpeg");
@@ -65,13 +69,17 @@
     margin: 0px;
 }
 
-/************* MAIN CONTAINER  *****************/
+/* ================================= 
+            MAIN CONTAINER
+==================================== */
 
 .main {
     padding: 0;
 }
 
-/************* ABOUT  *****************/
+/* ================================= 
+                ABOUT
+==================================== */
 
 #about {
     margin: 0;
@@ -110,7 +118,9 @@
     background-color: papayawhip;
 }
 
-/************* KEYNOTES  *****************/
+/* ================================= 
+                KEYNOTES
+==================================== */
 
 @keyframes bounce {
     0%,
@@ -137,7 +147,9 @@
     }
 }
 
-/************* PORTFOLIO  *****************/
+/* ================================= 
+            PORTFOLIO
+==================================== */
 
 #portfolio {
     margin: 0;
@@ -182,11 +194,12 @@
 	display: block;
 	position: absolute;
 	transform-style: inherit;
-	backface-visibility: hidden;
+    backface-visibility: hidden;
+    perspective: 800px;
 }
 
 .front {
-	transform: translate3d(0, 0, 210px);
+    transform: translate3d(0, 0, 210px);
 }
 
 .back {
@@ -204,9 +217,37 @@
 }
 
 .rotate-img-div {
-    /* border: solid 5px firebrick; */
+    width: 100%;
+    height: 100%;
 }
 
+
+/* ================================= 
+                BUTTONS
+==================================== */
+
+.view-details {
+    opacity: 0;
+    position: absolute;
+    transition: opacity .4s ease-in;
+    outline: none;
+    left: 100px;
+    top: 250px;
+    z-index: 1;
+}
+
+.photo-cube:hover .view-details {
+	opacity: 1;
+}
+
+.front-button {
+    background-image: linear-gradient(-30deg, purple, rgb(233, 186, 233), firebrick);
+}
+
+.back-button {
+    color: white;
+    background-color: #7c689b;
+}
 
 
 
