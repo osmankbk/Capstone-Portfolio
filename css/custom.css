@@ -154,11 +154,15 @@
 #portfolio {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient( mistyrose, papayawhip, firebrick);
+    /* background-image: linear-gradient( mistyrose, papayawhip, firebrick); */
+    background-image: url("../images/9.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 .portfolio-h3 {
     text-shadow: 3px 3px 8px mistyrose;
+    color: white;
 }
 
 /* ================================= 
@@ -282,7 +286,37 @@
     background-image: linear-gradient(rgba(178, 34, 34, .6), rgba(0, 0, 0, .6) 40%);
 }
 
+/* ================================= 
+            MODAL POPUP
+==================================== */
 
+.modal-view {
+    padding-bottom: 10px;
+}
+
+.modal-pic img {
+    margin-bottom: 10px;
+}
+
+.wepapp-modal-content {
+    background-color: black;
+}
+
+.wepapp-modal-view span{
+    color: firebrick;
+}
+
+.fsk-modal-content {
+    background-color: black;
+}
+
+.fsk-modal-content span {
+    color: #7c689b;
+}
+
+.game-modal-content {
+    background-color: black;
+}
 
 
 /* .gallery {
