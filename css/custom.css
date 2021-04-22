@@ -318,6 +318,17 @@
     background-color: black;
 }
 
+.game-modal-content span{
+    color:#5b85b7;
+}
+
+.api-modal-content {
+    background-color: rgb(39, 38, 38);
+}
+
+.api-modal-content span {
+    color: firebrick;
+}
 
 /* .gallery {
     margin: 4% auto;
