@@ -111,7 +111,7 @@
 
 .about-h3 {
     margin-top: 2rem;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
     font-size: xx-large;
     text-shadow: 5px 5px 8px firebrick;
 }
@@ -171,7 +171,6 @@
 #portfolio {
     margin: 0;
     padding: 0;
-    /* background-image: linear-gradient( mistyrose, papayawhip, firebrick); */
     background-image: url("../images/9.jpg");
     background-size: cover;
     background-position: center center;
@@ -181,6 +180,7 @@
     text-shadow: 3px 3px 8px mistyrose;
     color: white;
     font-size: xx-large;
+    letter-spacing: 8px;
     border: solid 3px red;
 }
 
@@ -459,9 +459,17 @@
     }
     
     .about-h3 {
-        letter-spacing: 8px;
         font-size: 3rem;
 
+    }
+
+
+    #portfolio {
+       height: 100vh;
+    }
+
+    .portfolio-h3 {
+        font-size: 3rem;
     }
     
     .frontend,
@@ -469,6 +477,33 @@
     .future {
         font-size: x-large;
     }
+
+    .cube-container {
+        height: 500px; /* new 600px or 650px */
+        border: solid 3px yellow;
+    }
+    
+    .photo-cube {
+        transition: transform 2s ease-in-out;
+        width: 240px; 
+        height: 220px;
+        margin: 0px auto auto auto;
+        margin-top: 6rem;
+        transform-style: preserve-3d;
+        animation: rotation 10s infinite linear;
+    }
+    /* width: 320px; height: 300px */
+    
+    .front {
+        transform: translate3d(0, 0, 130px);
+    }
+
+
+    .view-details {
+        left: 65px;
+        top: 170px;
+    }
+
 }
 
 
