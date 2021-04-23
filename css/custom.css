@@ -332,7 +332,6 @@
             MODAL POPUP
 ==================================== */
 .modal-content {
-    /* Erase this at mid media query */
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -424,6 +423,7 @@
 .contact-h3 {
     text-shadow: 3px 3px 8px crimson;
     font-size: xx-large;
+    letter-spacing: 8px;
 }
 
 .reach-me {
@@ -496,6 +496,11 @@
     }
     /* width: 320px; height: 300px */
     
+    .modal-content {
+        /* Erase this at mid media query */
+        width: 100%;
+    }
+
     .front {
         transform: translate3d(0, 0, 130px);
     }
@@ -522,6 +527,14 @@
         font-size: x-large;
     }
 
+    .linkedin {
+        width: 10%;
+    }
+
+    .github {
+        width: 10%;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -543,6 +556,53 @@
         font-size: 5rem;
     }
 
+
+    .portfolio-h3 {
+        padding-bottom: 2rem;
+        font-size: 5rem;
+    }
+
+    .cube-container {
+        height: 500px; /* new 600px or 650px */
+        border: solid 3px yellow;
+    }
+    
+    .photo-cube {
+        transition: transform 2s ease-in-out;
+        width: 320px; 
+        height: 300px;
+        margin: 0px auto auto auto;
+        margin-top: 6rem;
+        transform-style: preserve-3d;
+        animation: rotation 10s infinite linear;
+    }
+    /* width: 320px; height: 300px */
+    
+    .front {
+        transform: translate3d(0, 0, 210px);
+    }
+
+    .view-details {
+        left: 100px;
+        top: 250px;
+    }
+
+    .contact-h3 {
+        font-size: 5rem;
+    }
+
+    .reach-me {
+        font-size: xx-large;
+    }
+    
+    .email-me {
+        font-size: xx-large;
+    }
+    
+    .email {
+        font-size: xx-large;
+    }
+    
 }
 
 
