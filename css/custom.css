@@ -71,12 +71,13 @@
 
 .jumbo-h1 {
     color: papayawhip;
-    font-size: xx-large;
+    font-size: 3rem;
 }
 
 .jumbo-h3 {
     color: rgb(155, 82, 56);
-    font-size: xx-large;
+    font-size: 3rem;
+    margin-top: 3.5rem;
 }
 
 /* ================================= 
@@ -444,11 +445,12 @@
 
 @media (min-width: 768px) {
     .jumbo-h1 {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
     }
     
     .jumbo-h3 {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
+        margin-top: 0px;
     }
 
     .about-text {
@@ -518,6 +520,27 @@
     
     .email {
         font-size: x-large;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .jumbo-h1 {
+        font-size: 6rem;
+    }
+    
+    .jumbo-h3 {
+        font-size: 6rem;
+    }
+
+    .about-text {
+        letter-spacing: 1.6px;
+        font-size: large;
+      
+    }
+    
+    .about-h3 {
+        font-size: 5rem;
     }
 
 }
