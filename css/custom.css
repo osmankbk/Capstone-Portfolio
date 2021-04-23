@@ -498,10 +498,26 @@
         transform: translate3d(0, 0, 130px);
     }
 
-
     .view-details {
         left: 65px;
         top: 170px;
+    }
+
+
+    .contact-h3 {
+        font-size: 3rem;
+    }
+
+    .reach-me {
+        font-size: larger;
+    }
+    
+    .email-me {
+        font-size: larger;
+    }
+    
+    .email {
+        font-size: x-large;
     }
 
 }
