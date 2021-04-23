@@ -8,6 +8,7 @@
     height: 3.5rem;
     background-color: rgb(255, 239, 213);
     color: rgb(155, 82, 56);
+    border: solid 2px yellow;
 }
 
 .down {
@@ -25,6 +26,7 @@
 .second {
     transition: transform .5s ease-out;
     transform: translateY(-100%);
+    border: solid 2px yellow;
 }
 
 .first-stack {
@@ -40,10 +42,12 @@
 
 .navbar-brand {
     color: crimson;
+    border: solid 2px yellow;
 }
 
 .nav-link {
     color: crimson;
+    border: solid 2px yellow;
 }
 
 
@@ -58,6 +62,7 @@
     background-color: rgba(255, 239, 214, 0.8);
     background-blend-mode: multiply;
     margin: 0;
+    border: solid 2px yellow;
 
 }
 
@@ -65,17 +70,20 @@
     height: 90vh;
     background-position: center center; 
     margin: 0px;
+    border: solid 2px yellow;
 }
 
 .jumbo-h1 {
     color: papayawhip;
     font-size: 3rem;
+    border: solid 2px yellow;
 }
 
 .jumbo-h3 {
     color: rgb(155, 82, 56);
     font-size: 3rem;
     margin-top: 3.5rem;
+    border: solid 2px yellow;
 }
 
 /* ================================= 
@@ -84,6 +92,7 @@
 
 .main {
     padding: 0;
+    border: solid 2px yellow;
 }
 
 /* ================================= 
@@ -93,6 +102,7 @@
 #about {
     margin: 0;
     background-image: linear-gradient(-30deg, brown, papayawhip, firebrick);
+    border: solid 2px yellow;
 }
 
 .about-text {
@@ -105,6 +115,7 @@
     line-height: 30px;
     border-radius: 5px;
     background-image: radial-gradient( brown, papayawhip);
+    border: solid 2px yellow;
 }
 
 .about-h3 {
@@ -112,21 +123,25 @@
     letter-spacing: 8px;
     font-size: xx-large;
     text-shadow: 5px 5px 8px firebrick;
+    border: solid 2px yellow;
 }
 
 .frontend,
 .backend,
 .future {
     font-size: larger;
+    border: solid 2px yellow;
 }
 
 .list-group {
     margin-bottom: 4rem;
     transition: transform .8s ease-in-out;
+    border: solid 2px yellow;
 }
 
 .list-group-item {
     background-color: papayawhip;
+    border: solid 2px yellow;
 }
 
 /* ================================= 
@@ -168,6 +183,7 @@
     background-image: url("../images/9.jpg");
     background-size: cover;
     background-position: center center;
+    border: solid 2px green;
 }
 
 .portfolio-h3 {
@@ -175,6 +191,7 @@
     color: white;
     font-size: xx-large;
     letter-spacing: 8px;
+    border: solid 2px yellow;
 }
 
 
@@ -186,12 +203,14 @@
 	box-shadow: 0 18px 40px 5px rgba(0,0,0,.4);
     perspective: 800px;
     height: 500px;
+    border: solid 2px red;
 }
 
 .content {
     width: 100%;
     margin-left: auto; 
     margin-right: auto;
+    border: solid 2px yellow;
 }
 
 .photo-cube {
@@ -257,6 +276,7 @@
     left: 5px;
     top: 50px;
     z-index: 1;
+    border: solid 2px yellow;
 }
 
 .photo-cube:hover .view-details {
@@ -369,6 +389,7 @@
     background-color: rgb(233, 186, 233);
     height: 95vh;
     padding-top: 5.5rem;
+    border: solid 2px greenyellow;
     
 }
 
@@ -400,10 +421,12 @@
     text-shadow: 3px 3px 8px crimson;
     font-size: xx-large;
     letter-spacing: 8px;
+    border: solid 2px yellow;
 }
 
 .reach-me {
     font-size: large;
+    border: solid 2px yellow;
 }
 
 .email-me {
