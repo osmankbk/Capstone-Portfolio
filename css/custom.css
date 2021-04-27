@@ -100,9 +100,6 @@
     padding-top: 6.5rem;
 }
 
-.begin-about-sec {
-
-}
 
 .about-text {
     width: 70%;
@@ -188,6 +185,11 @@
     color: white;
     font-size: xx-large;
     letter-spacing: 8px;
+}
+
+.profile-image {
+    width: 70%;
+    /* border-radius: 50%; */
 }
 
 
@@ -431,7 +433,6 @@
             MEDIA QUARIES
 ==================================== */
 
-
 @media (min-width: 768px) {
     .jumbo-h1 {
         font-size: 4.5rem;
@@ -444,13 +445,17 @@
 
     .about-text {
         letter-spacing: 1.6px;
-        font-size: large;
-      
+        font-size: large;    
     }
     
     .about-h3 {
         font-size: 3rem;
 
+    }
+
+    .profile-image {
+        width: 30%;
+        border-radius: 50%;
     }
 
 
