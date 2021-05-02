@@ -1,3 +1,7 @@
+/* ================================= 
+                HEADER
+==================================== */
+
 .first {
     display: flex;
     align-content: space-around;
@@ -441,7 +445,7 @@
     }
 
     .about-text {
-        letter-spacing: 2px;
+        letter-spacing: 1.2px;
         font-size: large;    
     }
     
@@ -534,7 +538,7 @@
     }
 
     .about-text {
-        /* letter-spacing: 1.6px; */
+        letter-spacing: 1.6px;
         font-size: large;
       
     }
@@ -589,3 +593,26 @@
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
