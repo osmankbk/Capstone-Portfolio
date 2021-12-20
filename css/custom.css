@@ -15,9 +15,7 @@
     height: 30px;
     margin-top: 50px;
     margin: auto;
-    border-radius: 20%;
-    fill: rgb(155, 82, 56);
-    
+    fill: rgb(155, 82, 56);    
     animation: bounce 2s;
     animation-iteration-count: infinite;
 }
